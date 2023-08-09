@@ -9,6 +9,7 @@ d = {
     7: "seven",
     8: "eight",
     9: "nine",
+    "ix":"four",
 }
 pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
 
@@ -37,9 +38,24 @@ for key, value in d.items():
 # for item in keys:
 #     print(item)
 #values
-
+print("*"*20)
 v=d.values()
 print(v)
-d[11]="eleven"
+d[11]="eleven" 
 print(v)
 print( "eleven" in v)
+print("*"*20)
+keys=list(d.keys())
+values=list(v)
+
+
+if "nine" in values:
+    index=values.index("nine")
+    key=keys[index]
+    print( f"{key} was found in position {values[index]}")
+print("*"*20)    
+for key,value in d.items():
+    if value=="nine":
+        print( f"{key} was found in position {value}")
+    
+ #copy
