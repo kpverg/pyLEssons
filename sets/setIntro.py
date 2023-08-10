@@ -3,7 +3,7 @@
 
 
 # intersection common elements
-# farmAnimals.intersection(wildAnimals)
+# farmAnimals.intersection(wildAnimals)  farmAnimals & wildAnimals) 
 
 #subtracked  any items from wildAnimals are removed from farmAnimals 
 # farmAnimals.difference(wildAnimals)
@@ -16,6 +16,10 @@ for animal in farmAnimals:
     print(animal) # u cant index and you cant slice a set
     
 moreAnimals={'goat','hen','cow','sheep','horse'}
+potentialRides={'horse','donkey','camel'}
+
+mounts=farmAnimals.intersection(moreAnimals,potentialRides)
+mounts2=farmAnimals & moreAnimals & potentialRides
 if moreAnimals== farmAnimals:
     print("sets are equal")
 else:
