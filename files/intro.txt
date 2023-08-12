@@ -1,0 +1,12 @@
+ terminal cntl+alt+t
+ ls : folders
+ ls -al :all details
+ cd change directory
+ python hello.py # trexei to py file
+ pwd  power working directory
+ c:\ users  backslash win
+ /users/kver ubuntu
+ absolute path will get you to your destination ,no matter you start from
+ relative path will get you tere from where you are now
+ dir ..\HelloWorld paei ston epanw fakelo
+ ls -al ../HelloWorld paei untuena fakelo panw ub
